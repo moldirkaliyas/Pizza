@@ -1,0 +1,36 @@
+
+@import "nullstyle.scss";
+@import "head.scss";
+@import "main.scss";
+@import "progress.scss";
+
+$fontFamily:'Conv_unisansheavycaps';
+$max-Width:1400;
+$maxWidthContainer:1178;
+
+.wrapper{
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+	display:flex;
+	flex-direction: column;
+
+}
+._container{
+	max-width:$maxWidthContainer+px;
+	margin:0 auto;
+}
+footer{
+	background:url("..//img/bg-image.png");
+	color: #eaeaea;
+font-family: Roboto;
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
+line-height: 25px;
+padding: 46px 0;
+@media(max-width: 640px){
+	font-size: 15px;
+}
+}
